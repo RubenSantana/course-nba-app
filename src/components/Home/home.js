@@ -11,8 +11,10 @@ const Home = () => (
       amount={6}
       settings={{ dots: false }}
     />
+    {/*
     <NewsList type="card" loadMore={true} start={3} amount={3} />
     <VideosList type="card" title={true} loadmore={true} start={0} amount={3} />
+    */}
   </div>
 );
 
