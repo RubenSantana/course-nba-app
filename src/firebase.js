@@ -5,7 +5,7 @@ const firebaseConfig = {
   authDomain: "nba-fullstack-b11e3.firebaseapp.com",
   databaseURL: "https://nba-fullstack-b11e3.firebaseio.com",
   projectId: "nba-fullstack-b11e3",
-  storageBucket: "",
+  storageBucket: "nba-fullstack-b11e3.appspot.com",
   messagingSenderId: "113855077717",
   appId: "1:113855077717:web:0d6b3aae55064f50"
 };
