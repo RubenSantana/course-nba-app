@@ -5,7 +5,6 @@ import styles from "./videosList.css";
 import CardInfo from "../CardInfo/cardInfo";
 
 const VideosListTemplate = props => {
-  console.log(props);
   return props.data.map((item, i) => (
     <Link to={`/videos/${item.id}`} key={i}>
       <div className={styles.videoListItem_wrapper}>

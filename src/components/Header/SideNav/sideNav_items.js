@@ -5,7 +5,6 @@ import style from "./sideNav.css";
 import { firebase } from "../../../firebase";
 
 const SideNavItems = props => {
-  console.log(props);
   const items = [
     {
       type: style.option,
