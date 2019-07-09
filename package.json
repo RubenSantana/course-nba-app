@@ -1,6 +1,7 @@
 {
   "name": "course-nba-app",
   "version": "0.1.0",
+  "homepage": "https://RubenSantana.github.io/course-nba-app",
   "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
@@ -19,7 +20,7 @@
     "dotenv": "6.2.0",
     "dotenv-expand": "4.2.0",
     "draft-js": "^0.10.4",
-    "draft-js-export-html": "^1.2.0",
+    "draft-jsexport-html": "^1.2.0",
     "eslint": "^5.16.0",
     "eslint-config-react-app": "^4.0.1",
     "eslint-loader": "2.1.2",
@@ -32,7 +33,7 @@
     "firebase": "^4.8.1",
     "fs-extra": "7.0.1",
     "html-webpack-plugin": "4.0.0-beta.5",
-    "identity-obj-proxy": "3.0.0",
+    "identity-obj-proxy": "3.0.0"react,
     "is-wsl": "^1.1.0",
     "jest": "24.7.1",
     "jest-environment-jsdom-fourteen": "0.1.0",
@@ -71,6 +72,8 @@
     "workbox-webpack-plugin": "4.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "dev-serv": "json-server --watch db.json --port 3004",
     "build": "node scripts/build.js",
