@@ -3,8 +3,7 @@ import React, { Component } from "react";
 import {
   firebaseTeams,
   firebaseVideos,
-  firebaseLooper,
-  firebaseArticles
+  firebaseLooper
 } from "../../../firebase";
 import Button from "../Buttons/buttons";
 import VideosListTemplate from "./videosListTemplate";
